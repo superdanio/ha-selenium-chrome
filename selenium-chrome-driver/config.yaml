@@ -1,0 +1,15 @@
+name: "Home Assistant Addon - Selenium Chrome Driver"
+description: "Selenium Chrome driver for home assistant"
+version: "1.1.0"
+slug: "ha_selenium_chrome"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  4444/tcp: 4444
+  7900/tcp: 7900
